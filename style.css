@@ -1,0 +1,54 @@
+.form-container {
+  width: 30%;
+  height: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 2em;
+  background-color: #2E4053;
+  color: #FFFFFF;
+}
+.fondo {
+  background-color: #343434;
+  color: #FFFFFF;
+}
+.fondo2 {
+  background-color: #2CD2E3;
+  color: #FFFFFF;
+}
+
+.input-with-image {
+  position: relative;
+}
+
+.input-with-image input {
+  padding-right: 20%;
+}
+
+#valid-imagecp,
+#invalid-imagecp,
+#valid-imagep,
+#invalid-imagep,
+#valid-imagee,
+#invalid-imagee,
+#valid-image,
+#invalid-image {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 11px;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+input {
+  width: 100%;
+  padding: 1.2em 1.5em;
+  margin: 0.8em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 0.4em;
+}
